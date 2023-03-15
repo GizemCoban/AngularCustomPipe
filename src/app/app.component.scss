@@ -1,0 +1,21 @@
+input {
+    border: 1px solid #5708d5;
+    border-radius: 20px;
+    outline: none;
+}
+input[type=number]:focus {
+    border: 2px solid #e10aec;
+
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+  }
+
+  .grid-item {
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+  }
